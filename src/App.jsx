@@ -28,7 +28,7 @@ function App() {
           <p className='text-green-400 font-bold text-center mb-6'>ADVICE #{data.id}</p>
           <p className=' text-white text-3xl text-center font-bold mb-10 '>"{data.advice}"</p>
           <img className='mb-5' src="/images/pattern-divider-desktop.svg" alt="" />
-          <button className='bg-green-400 md:ml-2 right-32 mr-1  mt-3 md:left-56 px-4 py-4   left rounded-full absolute'
+          <button className='bg-green-400  hover:bg-green-300 md:ml-2 right-32 mr-1  mt-3 md:left-56 px-4 py-4   left rounded-full absolute'
           onClick={newAdvice} 
           >
             <img  src="/images/icon-dice.svg" alt=" dice" /></button>
